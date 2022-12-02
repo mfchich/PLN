@@ -16,7 +16,7 @@
 * [Desafio 4 : Predicción de próxima palabra](#desafio4)
 * [Desafio 5 : Análisis de sentimientos ](#desafio5)
 * [Desafio 6 : Creación de un bot conversacional](#desafio6)
-
+## 
 Desafio 1 : TF-IDF (Term frequency-Inverse term frequency)
 
 Desafio 2 : Construcción de BOT
