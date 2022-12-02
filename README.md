@@ -17,7 +17,7 @@
 * [<img src="https://github.com/mfchich/PLN/blob/main/imagenes/Bot_chico.JPG" width="30px" height="30px"> Desafio 2 : Construcción de BOT](#desafio2)
 * [Desafio 3 : Creación de embeddings de palabras basado en contexto](#desafio3)
 * [<img src="https://github.com/mfchich/PLN/blob/main/imagenes/Proxima_palabra.JPG" width="30px" height="30px"> Desafio 4 : Predicción de próxima palabra](#desafio4)
-* [<img src="https://github.com/mfchich/PLN/blob/main/imagenes/Analisis_sentimientos.JPG" width="30px" height="30px"> Desafio 5 : Análisis de sentimientos ](#desafio5)
+* [:performing_arts: Desafio 5 : Análisis de sentimientos ](#desafio5)
 * [<img src="https://github.com/mfchich/PLN/blob/main/imagenes/Bot_conversacion.JPG" width="30px" height="30px"> Desafio 6 : Creación de un bot conversacional](#desafio6)
 ## 
 Desafio 1 : TF-IDF (Term frequency-Inverse term frequency)
