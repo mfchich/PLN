@@ -48,26 +48,8 @@
 ### Este desafío consiste en utilizar documentos/corpus para crear embeddings de palabras basado en ese contexto. Se utilizará canciones de bandas para generar los embeddings, es decir, que los vectores tendrán la forma en función de como esa banda haya utilizado las palabras en sus canciones.
 
 ### Se usó un corpus de aproximadamente 40 canciones de Joan Manuel Serrat. El dataset fue creado a mano. Las letras fueron obtenidas de https://www.musica.com/letras.asp?letras=7599
-
-###  Este desafío consiste en crear vectores con Gensim. Probar términos de interés y explicar similitudes en el espacio de embeddings. Graficarlos. Sacar conclusiones
-
-### El objetivo es utilizar documentos / corpus para crear embeddings de palabras basado en ese contexto. Se utilizará canciones de bandas para generar los embeddings, es decir, que los vectores tendrán la forma en función de como esa banda haya utilizado las palabras en sus canciones.
-
-Se usó un corpus de aproximadamente 40 canciones de Joan Manuel Serrat. El dataset fue creado a mano. Las letras fueron obtenidas de https://www.musica.com/letras.asp?letras=7599
-Se estableció en 2 la cantidad de repeticiones mínimas del término para ser tomada en cuenta. Esto es principalmente porque hay terminos que se repiten poco pero dan significado a otras que se repiten mas.
-Se comprueba que los términos se pueden relaciona con distintos párrafos de canciones de cantautor.
-
-
-
-La temática de los temas de cantautor es muy variada por lo cual los términos aparecen en contextos variados.
-
-Se estableció en 2 la cantidad de repeticiones mínimas del término para ser tomada en cuenta. Esto es principalmente porque hay terminos que se repiten poco pero dan significado a otras que se repiten mas.
-
-En el gráfico de embedding no se puede ver la misma relación, lo cual puede deberse a que fue necesario usar solo dos dimenciones para poder presentarlo.
-
-Se prueba el modelo con varios términos como amigos, camino, flores, piratas y hombres
-
-Se comprueba que los términos se pueden relaciona con distintos párrafos de canciones de cantautor.
+### Se estableció en 2 la cantidad de repeticiones mínimas del término para ser tomada en cuenta. Esto es principalmente porque hay terminos que se repiten poco pero dan significado a otras que se repiten mas.
+### La temática de los temas de cantautor es muy variada por lo cual los términos aparecen en contextos variados. Se comprueba que los términos se pueden relaciona con distintos párrafos de canciones de cantautor.
 
 [Volver](#top)
 
@@ -75,7 +57,9 @@ Se comprueba que los términos se pueden relaciona con distintos párrafos de ca
 <a name="desafio4"></a>
 ## <p align="center"> Predicción de próxima palabra </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Proxima_palabra.JPG" ></a></p>
+### Este desafío consiste en utilizar un dataset y poner en práctica la predicción de próxima palabra.
 
+### Se usó un corpus de aproximadamente 4566 documentos (con 141318 tokens), formados por el texto del libro "La Vuelta al Mundo en 80 días" y de "Viaje al Centro de la Tierra", ambos de Julio Verne, concatenados y convertidos en un archivo csv. Ambos textos fueron obtenidos de https://www.textos.info/
 
 [Volver](#top)
 
