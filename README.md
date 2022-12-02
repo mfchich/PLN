@@ -27,8 +27,14 @@ Desafio 6 : Creación de un bot conversacional
 
 
 <a name="desafio1"></a>
+### CTF-IDF (Term frequency-Inverse term frequency)
 [Volver](#top)
-<a name="desafio1"></a>
+
+
+<a name="desafio2"></a>
+### Construcción de BOT
+
+
 [Volver](#top)
 
 <a name="top"></a>
