@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![logoFIUBA.jpg](C:/ESPECIALIZACION_EN_INTELIGENCIA_ARTIFICIAL/08-PROCESAMIENTO DE LENGUAJE NATURAL/GIT/procesamiento_lenguaje_natural-main/logoFIUBA.jpg "")
 
 
@@ -21,3 +22,7 @@ Desafio 5 : Análisis de sentimientos
 Desafio 6 : Creación de un bot conversacional
 
 
+=======
+# :book: Procesamiento de Lenguaje Natural (PLN)
+:book: Procesamiento de Lenguaje Natural
+>>>>>>> 83a483eca85aff506bb5718b22a8f4696b5a642c
