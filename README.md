@@ -1,11 +1,12 @@
-<<<<<<< HEAD
+
+<p align="center">
 ![logoFIUBA.jpg](https://github.com/mfchich/PLN/blob/main/imagenes/logoFIUBA.jpg "")
 
 
 ![PLN.JPG](https://github.com/mfchich/PLN/blob/main/imagenes/PLN.JPG "")
 
 # :book: Procesamiento de Lenguaje Natural (PLN) :book:
-
+</p>
 ## Marcelo chichiri
 
 ### Desafios 
