@@ -78,7 +78,7 @@
 ##
 <a name="desafio5"></a>
 ## <p align="center"> Análisis de sentimientos </p>
-<p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Analisis_sentimientos2.JPG" ></a></p> :bookmark_tabs:
+<p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Analisis_sentimientos2.JPG" ></a></p>
 
 ### El objetivo es utilizar las críticas de compradores de ropa para que el sistema determine la evaluación del comprador y su crítica (cuantas estrellas le asigna al producto).
 ### Se utilizó como dataset críticas de compradores de ropa por eCommerce , los cuales puntuaron a cada prenda con un puntaje de 1 a 5 estrellas.
