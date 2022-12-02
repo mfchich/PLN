@@ -57,6 +57,7 @@
 <a name="desafio4"></a>
 ## <p align="center"> Predicción de próxima palabra </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Proxima_palabra.JPG" ></a></p>
+
 ### Este desafío consiste en utilizar un dataset y poner en práctica la predicción de próxima palabra.
 
 ### Se usó un corpus de aproximadamente 4566 documentos (con 141318 tokens), formados por el texto del libro "La Vuelta al Mundo en 80 días" y de "Viaje al Centro de la Tierra", ambos de Julio Verne, concatenados y convertidos en un archivo csv. Ambos textos fueron obtenidos de https://www.textos.info/
