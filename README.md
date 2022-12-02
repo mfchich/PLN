@@ -82,9 +82,13 @@ https://github.com/mfchich/PLN/blob/main/1a%20-%20word2vec_M-CHICHIRI.ipynb
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Analisis_sentimientos2.JPG" ></a></p>
 
 ### El objetivo es utilizar las críticas de compradores de ropa para que el sistema determine la evaluación del comprador y su crítica (cuantas estrellas le asigna al producto).
-## Se utilizó como dataset críticas de compradores de ropa por eCommerce , los cuales puntuaron a cada prenda con un puntaje de 1 a 5 estrellas.
+### Se utilizó como dataset críticas de compradores de ropa por eCommerce , los cuales puntuaron a cada prenda con un puntaje de 1 a 5 estrellas.
 
 <a href="https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews" target="_blank">Referencia del dataset</a>
+
+### El datset original tiene 5 clases, pero como están muy desbalanceados se juntaron clases para concluir solo en tres clases mas balanceadas. Entonces la clase 0 sería malo y regular, la clase 1 bueno y muy bueno y la clase 3 excelente/perfecto. Este cambio no balanceó por completo el dataset pero lo mejoró significativamente, lo cual mejoró el entrenamiento del modelo.
+
+### Se utilizaron distintas configuraciones de redes, tanto con capas lstm con conexiones bidireccionales como sin conexiones bidireccionales, adaptando las redes para cada caso, buscando el mejor resultado.
 
 <a href="https://github.com/mfchich/PLN/blob/main/5%20-%20clothing_ecommerce_reviews-M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 5</a>
 
