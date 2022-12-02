@@ -22,7 +22,7 @@
 
 <a name="desafio1"></a>
 ### <p align="center"> TF-IDF (Term frequency-Inverse term frequency) </p>
-<p align="center"><a target="_blank" rel="noopener noreferrer"><img width="100" src="https://github.com/mfchich/PLN/blob/main/imagenes/TF_IDF.JPG" ></a></p>
+<p align="center"><a target="_blank" rel="noopener noreferrer"><img width="300" src="https://github.com/mfchich/PLN/blob/main/imagenes/TF_IDF.JPG" ></a></p>
 Este desafio consiste en 
 
 [Volver](#top)
