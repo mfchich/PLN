@@ -4,6 +4,8 @@
 
 ![PLN.JPG](https://github.com/mfchich/PLN/blob/main/imagenes/PLN.JPG "")
 
+# :book: Procesamiento de Lenguaje Natural (PLN) :book:
+
 #**Procesamiento de Lenguaje Natural (PLN)**
 
 ## Marcelo chichiri
@@ -21,8 +23,3 @@ Desafio 5 : Análisis de sentimientos
 
 Desafio 6 : Creación de un bot conversacional
 
-
-=======
-# :book: Procesamiento de Lenguaje Natural (PLN)
-:book: Procesamiento de Lenguaje Natural
->>>>>>> 83a483eca85aff506bb5718b22a8f4696b5a642c
