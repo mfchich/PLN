@@ -73,17 +73,25 @@ Se comprueba que los términos se pueden relaciona con distintos párrafos de ca
 
 ##
 <a name="desafio4"></a>
-### Predicción de próxima palabr
+## <p align="center"> Predicción de próxima palabra </p>
+<p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Proxima_palabra.JPG" ></a></p>
+
+
 [Volver](#top)
 
 ##
 <a name="desafio5"></a>
-###  Análisis de sentimientos
+## <p align="center"> Análisis de sentimientos </p>
+<p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Analisis_sentimientos2.JPG" ></a></p>
+
+
 [Volver](#top)
 
 ##
 <a name="desafio6"></a>
-### Creación de un bot conversacional
+## <p align="center"> Creación de un bot conversacional </p>
+<p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Bot_conversacion.JPG" ></a></p>
+
 [Volver](#top)
 
 
