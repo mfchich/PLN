@@ -26,7 +26,7 @@
 Este desafio consiste en calcular, con herramintas de numpy, las métricas TF (Term Frequency) e IDF (Inverse Term Frequency). Estas métricas se utiliza como indicador de cuán importante es una palabra (o un término) en un documento. 
 El indicador TF muestra la frecuencia de aparición de un termino en un documento.  
 El indicador IDF muestra la proporción de documentos en el corpus que poseen el término dado.
-
+#
 [Volver](#top)
 
 
