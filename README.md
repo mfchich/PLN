@@ -1,7 +1,7 @@
 
 
   
- <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="100" src="https://github.com/mfchich/PLN/blob/main/imagenes/logoFIUBA.jpg" alt="Vue logo"></a></p>
+ <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="400" src="https://github.com/mfchich/PLN/blob/main/imagenes/logoFIUBA.jpg" ></a></p>
  
 ![logoFIUBA.jpg](https://github.com/mfchich/PLN/blob/main/imagenes/logoFIUBA.jpg "")
 
