@@ -69,6 +69,8 @@
 
 ### Se usó un corpus de aproximadamente 4566 documentos (con 141318 tokens), formados por el texto del libro "La Vuelta al Mundo en 80 días" y de "Viaje al Centro de la Tierra", ambos de Julio Verne, concatenados y convertidos en un archivo csv. Ambos textos fueron obtenidos de https://www.textos.info/
 
+### Los resultados no fueron muy buenos. Se ve que la palabra predicha no se ajusta a lo que se espera de sugerencia como palabra siguinete. Esto se explica por la reducida cantidad de documentos en el corpus.
+
 <a href="https://github.com/mfchich/PLN/blob/main/4d%20-%20predicci%C3%B3n_palabra_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 4</a>
 
 [Volver](#top)
