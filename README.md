@@ -41,7 +41,7 @@
 ### Se definieron 11 clases ('Subscripcion', 'agradecimientos', 'baja', 'consulta_pago', 'contacto', 'despedida', 'hablar_humano', 'nombre', 'reclamos_cobro', 'reclamos_servicios', 'saludos') con un vocabulario de 93 términos.
 ### considerando la reducida cantidad de clases y de términos los resultados obtenidos fueron muy buenos. 
 
-<a href="https://github.com/mfchich/PLN/blob/main/2b%20-%20bot_dnn_spacy_esp_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 2</a>
+:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/2b%20-%20bot_dnn_spacy_esp_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 2</a>
 
 [:arrow_heading_up: Volver](#top)
 
@@ -56,7 +56,7 @@
 ### Se estableció en 2 la cantidad de repeticiones mínimas del término para ser tomada en cuenta. Esto es principalmente porque hay términos que se repiten poco, pero dan significado a otras que se repiten más.
 ### La temática de los temas de cantautor es muy variada por lo cual los términos aparecen en contextos variados. Se comprueba que los términos se pueden relacionar con distintos párrafos de canciones de cantautor.
 
-<a href="https://github.com/mfchich/PLN/blob/main/3b-Custom_embedding_con_Gensim-M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 3</a>
+:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/3b-Custom_embedding_con_Gensim-M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 3</a>
 
 [:arrow_heading_up: Volver](#top)
 
@@ -71,7 +71,7 @@
 
 ### Los resultados no fueron muy buenos. Se ve que la palabra predicha no se ajusta a lo que se espera de sugerencia como palabra siguiente. Esto se explica por la reducida cantidad de documentos en el corpus.
 
-<a href="https://github.com/mfchich/PLN/blob/main/4d%20-%20predicci%C3%B3n_palabra_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 4</a>
+:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/4d%20-%20predicci%C3%B3n_palabra_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 4</a>
 
 [:arrow_heading_up: Volver](#top)
 
@@ -89,7 +89,7 @@
 
 ### Se utilizaron distintas configuraciones de redes, tanto con capas lstm con conexiones bidireccionales como sin conexiones bidireccionales, adaptando las redes para cada caso, buscando el mejor resultado.
 
-<a href="https://github.com/mfchich/PLN/blob/main/5%20-%20clothing_ecommerce_reviews-M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 5</a>
+:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/5%20-%20clothing_ecommerce_reviews-M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 5</a>
 
 [:arrow_heading_up: Volver](#top)
 
@@ -102,6 +102,6 @@
 
 ### Se utilizó una red neuronal con embeddings de Glove de dimensión 50 y una capa de entrada de 128 unidades. El dataset de entrenamiento tiene aproximadamente 1980 palabras. Los resultados fueron bastante variados, en algunos casos la respuesta del bot fue buena y en otros bastante deficiente, pero considerando la reducida dimensión del corpus de entrenamiento, los resultados generales fueron aceptables.
 
-<a href="https://github.com/mfchich/PLN/blob/main/6-%20bot_qa_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 6</a>
+:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/6-%20bot_qa_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 6</a> :bookmark_tabs:
 
 [:arrow_heading_up: Volver](#top)
