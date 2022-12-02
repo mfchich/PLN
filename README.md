@@ -11,8 +11,12 @@
 <a name="top"></a>
 ## Desafios 
 * [Desafio 1 : TF-IDF (Term frequency-Inverse term frequency)](#desafio1)
-* [Desafio 2 : Desafio 2 : Construcción de BOT](#desafio2)
-* 
+* [Desafio 2 : Construcción de BOT](#desafio2)
+* [Desafio 3 : Creación de embeddings de palabras basado en contexto](#desafio3)
+* [Desafio 4 : Predicción de próxima palabra](#desafio4)
+* [Desafio 5 : Análisis de sentimientos ](#desafio5)
+* [Desafio 6 : Creación de un bot conversacional](#desafio6)
+
 Desafio 1 : TF-IDF (Term frequency-Inverse term frequency)
 
 Desafio 2 : Construcción de BOT
@@ -27,7 +31,7 @@ Desafio 6 : Creación de un bot conversacional
 
 
 <a name="desafio1"></a>
-### CTF-IDF (Term frequency-Inverse term frequency)
+### TF-IDF (Term frequency-Inverse term frequency)
 [Volver](#top)
 
 
