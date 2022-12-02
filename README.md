@@ -24,32 +24,37 @@
 ## <p align="center"> TF-IDF (Term frequency-Inverse term frequency) </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="300" src="https://github.com/mfchich/PLN/blob/main/imagenes/TF_IDF.JPG" ></a></p>
 
-### Este desafio consiste en calcular, con herramintas de numpy, las métricas TF (Term Frequency) e IDF (Inverse Term Frequency). Estas métricas se utiliza como indicador de cuán importante es una palabra (o un término) en un documento. 
-### El indicador TF muestra la frecuencia de aparición de un termino en un documento.  
+### Este desafío consiste en calcular, con herramientas de numpy, las métricas TF (Term Frequency) e IDF (Inverse Term Frequency). Estas métricas se utilizan como indicador de cuán importante es una palabra (o un término) en un documento. 
+### El indicador TF muestra la frecuencia de aparición de un término en un documento.  
 ### El indicador IDF muestra la proporción de documentos en el corpus que poseen el término dado.
-
+##
 [Volver](#top)
 
 ##
 <a name="desafio2"></a>
-## <p align="center"> Construcción de BOT simple) </p>
+## <p align="center"> Construcción de BOT simple </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Bot_grande.JPG" ></a></p>
 
+### Este desafio consiste en contruir un bot simple que sea capaz de calcular, con herramintas de numpy, las métricas TF (Term Frequency) e IDF (Inverse Term Frequency). Estas métricas se utiliza como indicador de cuán importante es una palabra (o un término) en un documento. 
+##
 [Volver](#top)
 
+##
 <a name="desafio3"></a>
 ### Creación de embeddings de palabras basado en contexto
 [Volver](#top)
 
-
+##
 <a name="desafio4"></a>
 ### Predicción de próxima palabr
 [Volver](#top)
 
+##
 <a name="desafio5"></a>
 ###  Análisis de sentimientos
 [Volver](#top)
 
+##
 <a name="desafio6"></a>
 ### Creación de un bot conversacional
 [Volver](#top)
