@@ -28,9 +28,9 @@
 ### El indicador TF muestra la frecuencia de aparición de un término en un documento.  
 ### El indicador IDF muestra la proporción de documentos en el corpus que poseen el término dado.
 
-:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/1a%20-%20word2vec_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 1</a>
+:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/1a%20-%20word2vec_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 1</a> :bookmark_tabs:
 
-[:arrow_heading_up: Volver](#top)
+[:arrow_heading_up: Volver :arrow_heading_up:](#top)
 
 ##
 <a name="desafio2"></a>
@@ -41,9 +41,9 @@
 ### Se definieron 11 clases ('Subscripcion', 'agradecimientos', 'baja', 'consulta_pago', 'contacto', 'despedida', 'hablar_humano', 'nombre', 'reclamos_cobro', 'reclamos_servicios', 'saludos') con un vocabulario de 93 términos.
 ### considerando la reducida cantidad de clases y de términos los resultados obtenidos fueron muy buenos. 
 
-:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/2b%20-%20bot_dnn_spacy_esp_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 2</a>
+:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/2b%20-%20bot_dnn_spacy_esp_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 2</a> :bookmark_tabs:
 
-[:arrow_heading_up: Volver](#top)
+[:arrow_heading_up: Volver :arrow_heading_up:](#top)
 
 ##
 <a name="desafio3"></a>
@@ -56,9 +56,9 @@
 ### Se estableció en 2 la cantidad de repeticiones mínimas del término para ser tomada en cuenta. Esto es principalmente porque hay términos que se repiten poco, pero dan significado a otras que se repiten más.
 ### La temática de los temas de cantautor es muy variada por lo cual los términos aparecen en contextos variados. Se comprueba que los términos se pueden relacionar con distintos párrafos de canciones de cantautor.
 
-:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/3b-Custom_embedding_con_Gensim-M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 3</a>
+:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/3b-Custom_embedding_con_Gensim-M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 3</a> :bookmark_tabs:
 
-[:arrow_heading_up: Volver](#top)
+[:arrow_heading_up: Volver :arrow_heading_up:](#top)
 
 ##
 <a name="desafio4"></a>
@@ -71,14 +71,14 @@
 
 ### Los resultados no fueron muy buenos. Se ve que la palabra predicha no se ajusta a lo que se espera de sugerencia como palabra siguiente. Esto se explica por la reducida cantidad de documentos en el corpus.
 
-:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/4d%20-%20predicci%C3%B3n_palabra_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 4</a>
+:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/4d%20-%20predicci%C3%B3n_palabra_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 4</a> :bookmark_tabs:
 
-[:arrow_heading_up: Volver](#top)
+[:arrow_heading_up: Volver :arrow_heading_up:](#top)
 
 ##
 <a name="desafio5"></a>
 ## <p align="center"> Análisis de sentimientos </p>
-<p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Analisis_sentimientos2.JPG" ></a></p>
+<p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Analisis_sentimientos2.JPG" ></a></p> :bookmark_tabs:
 
 ### El objetivo es utilizar las críticas de compradores de ropa para que el sistema determine la evaluación del comprador y su crítica (cuantas estrellas le asigna al producto).
 ### Se utilizó como dataset críticas de compradores de ropa por eCommerce , los cuales puntuaron a cada prenda con un puntaje de 1 a 5 estrellas.
@@ -89,9 +89,9 @@
 
 ### Se utilizaron distintas configuraciones de redes, tanto con capas lstm con conexiones bidireccionales como sin conexiones bidireccionales, adaptando las redes para cada caso, buscando el mejor resultado.
 
-:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/5%20-%20clothing_ecommerce_reviews-M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 5</a>
+:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/5%20-%20clothing_ecommerce_reviews-M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 5</a> :bookmark_tabs:
 
-[:arrow_heading_up: Volver](#top)
+[:arrow_heading_up: Volver :arrow_heading_up:](#top)
 
 ##
 <a name="desafio6"></a>
@@ -104,4 +104,4 @@
 
 :bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/6-%20bot_qa_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 6</a> :bookmark_tabs:
 
-[:arrow_heading_up: Volver](#top)
+[:arrow_heading_up: Volver :arrow_heading_up:](#top)
