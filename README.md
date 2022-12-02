@@ -13,7 +13,6 @@
 <a name="top"></a>
 ## Desafios 
 * [:notebook: Desafio 1 : TF-IDF (Term frequency-Inverse term frequency) ](#desafio1) 
-* [Desafio 1 : TF-IDF (Term frequency-Inverse term frequency)](#desafio1)
 * [:space_invader: Desafio 2 : Construcción de BOT simple](#desafio2)
 * [:twisted_rightwards_arrows: Desafio 3 : Creación de embeddings de palabras basado en contexto](#desafio3)
 * [:repeat_one: Desafio 4 : Predicción de próxima palabra](#desafio4)
@@ -22,6 +21,8 @@
 ## 
 
 <a name="desafio1"></a>
+<p align="center"><a target="_blank" rel="noopener noreferrer"><img width="100" src="https://github.com/mfchich/PLN/blob/main/imagenes/logoFIUBA.jpg" ></a></p>
+
 ### TF-IDF (Term frequency-Inverse term frequency)
 [Volver](#top)
 
