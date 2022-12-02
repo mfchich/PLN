@@ -12,7 +12,7 @@
 
 <a name="top"></a>
 ## Desafios 
-* [img1]: /ruta/a/la/imagen.jpg](https://github.com/mfchich/PLN/blob/main/imagenes/logoFIUBA.jpg "Título alternativo" 
+* [img1] (https://github.com/mfchich/PLN/blob/main/imagenes/logoFIUBA.jpg "Título alternativo") 
 * [Desafio 1 : TF-IDF (Term frequency-Inverse term frequency)](#desafio1)
 * [Desafio 2 : Construcción de BOT](#desafio2)
 * [Desafio 3 : Creación de embeddings de palabras basado en contexto](#desafio3)
