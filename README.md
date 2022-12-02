@@ -2,7 +2,7 @@
 ![logoFIUBA.jpg](https://github.com/mfchich/PLN/blob/main/imagenes/logoFIUBA.jpg "")
 
 
-![PLN.JPG](C:/ESPECIALIZACION_EN_INTELIGENCIA_ARTIFICIAL/08-PROCESAMIENTO DE LENGUAJE NATURAL/readme final/PLN.JPG "")
+![PLN.JPG](https://github.com/mfchich/PLN/blob/main/imagenes/PLN.JPG "")
 
 #**Procesamiento de Lenguaje Natural (PLN)**
 
