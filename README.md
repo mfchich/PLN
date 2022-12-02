@@ -1,7 +1,7 @@
 
 
   
-![logoFIUBA.jpg](https://github.com/mfchich/PLN/blob/main/imagenes/logoFIUBA.jpg "")
+![logoFIUBA.jpg](https://github.com/mfchich/PLN/blob/main/imagenes/logoFIUBA.jpg width="300" "")
 
 
 ![PLN.JPG](https://github.com/mfchich/PLN/blob/main/imagenes/PLN.JPG "")
