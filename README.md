@@ -99,6 +99,10 @@ https://github.com/mfchich/PLN/blob/main/1a%20-%20word2vec_M-CHICHIRI.ipynb
 ## <p align="center"> Creación de un bot conversacional </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Bot_conversacion.JPG" ></a></p>
 
+### Este desafío consiste en construir un BOT para responder a preguntas del usuario (QA). El objecto es utilizar datos disponibles del challenge ConvAI2 (Conversational Intelligence Challenge 2) de conversaciones en inglés, utilizado la técnica seq2seq.
+
+### Se utilizó una red neuronal con embeddings de Glove de dimension 50 y una capa de entrada de 128 unidades. El dataset de entrenamiento tiene aproximadamente 1980 palabras. Los resultados fueron bastante variados, en algunos casos la respuesta del bot fue buena y en otros bastante deficiente, pero considerando la reducida dimensión del corpus de entrenamiento, los resultados generales fueron aceptables.
+
 <a href="https://github.com/mfchich/PLN/blob/main/6-%20bot_qa_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 6</a>
 
 [Volver](#top)
