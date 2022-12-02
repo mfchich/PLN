@@ -21,7 +21,7 @@
 ## 
 
 <a name="desafio1"></a>
-<p align="center"> ### TF-IDF (Term frequency-Inverse term frequency) </p>
+### <p align="center"> TF-IDF (Term frequency-Inverse term frequency) </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="100" src="https://github.com/mfchich/PLN/blob/main/imagenes/PLN.JPG" ></a></p>
 
 [Volver](#top)
