@@ -14,24 +14,12 @@
 ## Desafios 
 * [:notebook: Desafio 1 : TF-IDF (Term frequency-Inverse term frequency) ](#desafio1) 
 * [Desafio 1 : TF-IDF (Term frequency-Inverse term frequency)](#desafio1)
-* [:space_invader: Desafio 2 : Construcción de BOT](#desafio2)
+* [:space_invader: Desafio 2 : Construcción de BOT simple](#desafio2)
 * [:twisted_rightwards_arrows: Desafio 3 : Creación de embeddings de palabras basado en contexto](#desafio3)
 * [:repeat_one: Desafio 4 : Predicción de próxima palabra](#desafio4)
 * [:performing_arts: Desafio 5 : Análisis de sentimientos ](#desafio5)
-* [ Desafio 6 : Creación de un bot conversacional](#desafio6)
+* [:person_with_pouting_face: Desafio 6 : Creación de un bot conversacional](#desafio6)
 ## 
-Desafio 1 : TF-IDF (Term frequency-Inverse term frequency)
-
-Desafio 2 : Construcción de BOT
-
-Desafio 3 : Creación de embeddings de palabras basado en contexto
-
-Desafio 4 : Predicción de próxima palabra
-
-Desafio 5 : Análisis de sentimientos 
-
-Desafio 6 : Creación de un bot conversacional
-
 
 <a name="desafio1"></a>
 ### TF-IDF (Term frequency-Inverse term frequency)
