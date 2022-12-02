@@ -35,7 +35,7 @@
 ## <p align="center"> Construcción de BOT simple </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Bot_grande.JPG" ></a></p>
 
-### Este desafio consiste en contruir un bot simple que sea capaz de calcular, con herramintas de numpy, las métricas TF (Term Frequency) e IDF (Inverse Term Frequency). Estas métricas se utiliza como indicador de cuán importante es una palabra (o un término) en un documento. 
+### Este desafío consiste en construir un bot simple que sea capaz de responder preguntas simples. En este caso se utilizó un corpus para un bot de un servicio de venta y reclamos de un servicio de TV por cable (Cablin).
 ##
 [Volver](#top)
 
