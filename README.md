@@ -1,8 +1,8 @@
  
- <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="600" src="https://github.com/mfchich/PLN/blob/main/imagenes/logoFIUBA.jpg" ></a></p>
- 
- <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="500" src="https://github.com/mfchich/PLN/blob/main/imagenes/PLN.JPG" ></a></p>
+<p align="center"><a target="_blank" rel="noopener noreferrer"><img width="500" src="https://github.com/mfchich/PLN/blob/main/imagenes/PLN.JPG" ></a></p>
 
+<p align="center"><a target="_blank" rel="noopener noreferrer"><img width="400" src="https://github.com/mfchich/PLN/blob/main/imagenes/logoFIUBA.jpg" ></a></p>
+ 
 <p align="center">
   <h1 align="center">:book: Procesamiento de Lenguaje Natural (PLN) :book:</h1>
 </p>
