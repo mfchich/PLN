@@ -7,11 +7,7 @@
 ![PLN.JPG](https://github.com/mfchich/PLN/blob/main/imagenes/PLN.JPG "")
 
 <p align="center">
-# :book: Procesamiento de Lenguaje Natural (PLN) :book:
-</p>
-
-<p align="center">
-  <h3 align="center">:book: Procesamiento de Lenguaje Natural (PLN) :book:</h3>
+  <h4 align="center">:book: Procesamiento de Lenguaje Natural (PLN) :book:</h4>
 </p>
 
 ## Marcelo chichiri
