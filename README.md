@@ -1,28 +1,51 @@
-<<<<<<< HEAD
-![logoFIUBA.jpg](C:/ESPECIALIZACION_EN_INTELIGENCIA_ARTIFICIAL/08-PROCESAMIENTO DE LENGUAJE NATURAL/GIT/procesamiento_lenguaje_natural-main/logoFIUBA.jpg "")
+ 
+<p align="center"> <h1 align="center">:boom: ** CARATULA EN DESARROLLO **:boom:</h1> </p>
 
+<p align="center"> <h1 align="center">:book: Procesamiento de Lenguaje Natural (PLN) :book:</h1> </p>
 
-![PLN.JPG](C:/ESPECIALIZACION_EN_INTELIGENCIA_ARTIFICIAL/08-PROCESAMIENTO DE LENGUAJE NATURAL/readme final/PLN.JPG "")
+<p align="center"><a target="_blank" rel="noopener noreferrer"><img width="500" src="https://github.com/mfchich/PLN/blob/main/imagenes/PLN.JPG" ></a></p>
 
-#**Procesamiento de Lenguaje Natural (PLN)**
+<p align="center"><a target="_blank" rel="noopener noreferrer"><img width="400" src="https://github.com/mfchich/PLN/blob/main/imagenes/logoFIUBA.jpg" ></a></p>
+ 
 
 ## Marcelo chichiri
 
-### Desafios 
-Desafio 1 : TF-IDF (Term frequency-Inverse term frequency)
+<a name="top"></a>
+## Desafios 
+* [:notebook: Desafio 1 : TF-IDF (Term frequency-Inverse term frequency) ](#desafio1) 
+* [:space_invader: Desafio 2 : Construcción de BOT simple](#desafio2)
+* [:twisted_rightwards_arrows: Desafio 3 : Creación de embeddings de palabras basado en contexto](#desafio3)
+* [:repeat_one: Desafio 4 : Predicción de próxima palabra](#desafio4)
+* [:performing_arts: Desafio 5 : Análisis de sentimientos ](#desafio5)
+* [:interrobang: Desafio 6 : Creación de un bot conversacional](#desafio6)
+## 
 
-Desafio 2 : Construcción de BOT
+<a name="desafio1"></a>
+### <p align="center"> TF-IDF (Term frequency-Inverse term frequency) </p>
+<p align="center"><a target="_blank" rel="noopener noreferrer"><img width="100" src="https://github.com/mfchich/PLN/blob/main/imagenes/PLN.JPG" ></a></p>
 
-Desafio 3 : Creación de embeddings de palabras basado en contexto
-
-Desafio 4 : Predicción de próxima palabra
-
-Desafio 5 : Análisis de sentimientos 
-
-Desafio 6 : Creación de un bot conversacional
+[Volver](#top)
 
 
-=======
-# :book: Procesamiento de Lenguaje Natural (PLN)
-:book: Procesamiento de Lenguaje Natural
->>>>>>> 83a483eca85aff506bb5718b22a8f4696b5a642c
+<a name="desafio2"></a>
+### Construcción de BOT
+[Volver](#top)
+
+<a name="desafio3"></a>
+### Creación de embeddings de palabras basado en contexto
+[Volver](#top)
+
+
+<a name="desafio4"></a>
+### Predicción de próxima palabr
+[Volver](#top)
+
+<a name="desafio5"></a>
+###  Análisis de sentimientos
+[Volver](#top)
+
+<a name="desafio6"></a>
+### Creación de un bot conversacional
+[Volver](#top)
+
+
