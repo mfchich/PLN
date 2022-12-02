@@ -37,9 +37,25 @@ Desafio 6 : Creación de un bot conversacional
 
 <a name="desafio2"></a>
 ### Construcción de BOT
-
-
 [Volver](#top)
+
+<a name="desafio3"></a>
+### Creación de embeddings de palabras basado en contexto
+[Volver](#top)
+
+
+<a name="desafio4"></a>
+### Predicción de próxima palabr
+[Volver](#top)
+
+<a name="desafio5"></a>
+###  Análisis de sentimientos
+[Volver](#top)
+
+<a name="desafio6"></a>
+### Creación de un bot conversacional
+[Volver](#top)
+
 
 <a name="top"></a>
 # Título de nuestro documento
