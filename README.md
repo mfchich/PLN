@@ -14,7 +14,7 @@
 ## Desafios 
 * [<img src="https://github.com/mfchich/PLN/blob/main/imagenes/PLN.JPG" width="50px" height="30px"> Desafio 1 : TF-IDF (Term frequency-Inverse term frequency) ](#desafio1) 
 * [Desafio 1 : TF-IDF (Term frequency-Inverse term frequency)](#desafio1)
-* [Desafio 2 : Construcción de BOT](#desafio2)
+* [<img src="https://github.com/mfchich/PLN/blob/main/imagenes/Bot_chico.JPG" width="50px" height="30px"> Desafio 2 : Construcción de BOT](#desafio2)
 * [Desafio 3 : Creación de embeddings de palabras basado en contexto](#desafio3)
 * [Desafio 4 : Predicción de próxima palabra](#desafio4)
 * [Desafio 5 : Análisis de sentimientos ](#desafio5)
