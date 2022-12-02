@@ -28,7 +28,7 @@
 ### El indicador TF muestra la frecuencia de aparición de un término en un documento.  
 ### El indicador IDF muestra la proporción de documentos en el corpus que poseen el término dado.
 
-<a href="https://github.com/mfchich/PLN/blob/main/1a%20-%20word2vec_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 1</a>
+:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/1a%20-%20word2vec_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 1</a>
 
 [:arrow_heading_up: Volver](#top)
 
@@ -43,7 +43,7 @@
 
 <a href="https://github.com/mfchich/PLN/blob/main/2b%20-%20bot_dnn_spacy_esp_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 2</a>
 
-[Volver](#top)
+[:arrow_heading_up: Volver](#top)
 
 ##
 <a name="desafio3"></a>
@@ -58,7 +58,7 @@
 
 <a href="https://github.com/mfchich/PLN/blob/main/3b-Custom_embedding_con_Gensim-M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 3</a>
 
-[Volver](#top)
+[:arrow_heading_up: Volver](#top)
 
 ##
 <a name="desafio4"></a>
@@ -73,7 +73,7 @@
 
 <a href="https://github.com/mfchich/PLN/blob/main/4d%20-%20predicci%C3%B3n_palabra_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 4</a>
 
-[Volver](#top)
+[:arrow_heading_up: Volver](#top)
 
 ##
 <a name="desafio5"></a>
@@ -91,7 +91,7 @@
 
 <a href="https://github.com/mfchich/PLN/blob/main/5%20-%20clothing_ecommerce_reviews-M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 5</a>
 
-[Volver](#top)
+[:arrow_heading_up: Volver](#top)
 
 ##
 <a name="desafio6"></a>
@@ -104,4 +104,4 @@
 
 <a href="https://github.com/mfchich/PLN/blob/main/6-%20bot_qa_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 6</a>
 
-[Volver](#top)
+[:arrow_heading_up: Volver](#top)
