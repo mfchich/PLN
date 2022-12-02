@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-![logoFIUBA.jpg](C:/ESPECIALIZACION_EN_INTELIGENCIA_ARTIFICIAL/08-PROCESAMIENTO DE LENGUAJE NATURAL/GIT/procesamiento_lenguaje_natural-main/logoFIUBA.jpg "")
+![logoFIUBA.jpg](https://github.com/mfchich/PLN/blob/main/imagenes/logoFIUBA.jpg "")
 
 
 ![PLN.JPG](C:/ESPECIALIZACION_EN_INTELIGENCIA_ARTIFICIAL/08-PROCESAMIENTO DE LENGUAJE NATURAL/readme final/PLN.JPG "")
