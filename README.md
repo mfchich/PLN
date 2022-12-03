@@ -27,7 +27,7 @@
 ### :anguished: Este desafío consiste en calcular las métricas TF (Term Frequency), IDF (Inverse Term Frequency) y similitud por coseno. Estas métricas se utilizan como indicador de cuán importante es una palabra (o un término) en un documento y, mediante el cálculo de similitud por coseno, poder calcular la similitud entre dos textos. 
 ### 🧰Para este desafío se utilizaron herramientas de cálculo de Numpy.
 
-### El indicador TF muestra la frecuencia de aparición de un término en un documento.  
+### :relaxed: El indicador TF muestra la frecuencia de aparición de un término en un documento.  
 ### El indicador IDF muestra la proporción de documentos en el corpus que poseen el término dado.
 ### El indicador Conseno se utiliza para evaluar la similitud entre dos documentos representados por sus correspondientes vectore   
 
