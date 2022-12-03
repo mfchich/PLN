@@ -33,7 +33,7 @@
 ###
 
 ### :relaxed: El indicador TF muestra la frecuencia de aparición de un término en un documento.  
-     ### El indicador IDF muestra la proporción de documentos en el corpus que poseen el término dado.
+### El indicador IDF muestra la proporción de documentos en el corpus que poseen el término dado.
 ### El indicador Conseno se utiliza para evaluar la similitud entre dos documentos representados por sus correspondientes vectore   
 
 :bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/1a%20-%20word2vec_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 1</a> 
@@ -47,12 +47,9 @@
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Bot_grande.JPG" ></a></p>
 
 
-### :anguished: 
-### Este desafío consiste en construir un bot basado en reglas que sea capaz de responder preguntas simples. En este caso se utilizó un corpus para un bot de un servicio de venta y reclamos de un servicio de TV por cable (Cablin).
-### :toolbox: 
-### Para este desafio se utilizaron las librerías SpaCy-Stanza de Stanford con funciones para NLP para tokenizar. Se creó y entrenó un modelo secuencial de Keras.  
-### :relaxed: 
-### Se definieron 11 clases ('Subscripcion', 'agradecimientos', 'baja', 'consulta_pago', 'contacto', 'despedida', 'hablar_humano', 'nombre', 'reclamos_cobro', 'reclamos_servicios', 'saludos') con un vocabulario de 93 términos.
+### :anguished: Este desafío consiste en construir un bot basado en reglas que sea capaz de responder preguntas simples. En este caso se utilizó un corpus para un bot de un servicio de venta y reclamos de un servicio de TV por cable (Cablin).
+### :toolbox: Para este desafio se utilizaron las librerías SpaCy-Stanza de Stanford con funciones para NLP para tokenizar. Se creó y entrenó un modelo secuencial de Keras.  
+### :relaxed: Se definieron 11 clases ('Subscripcion', 'agradecimientos', 'baja', 'consulta_pago', 'contacto', 'despedida', 'hablar_humano', 'nombre', 'reclamos_cobro', 'reclamos_servicios', 'saludos') con un vocabulario de 93 términos.
 ### Considerando la reducida cantidad de clases y de términos los resultados obtenidos fueron muy buenos. 
 
 :bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/2b%20-%20bot_dnn_spacy_esp_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 2</a>
@@ -108,7 +105,7 @@
 
 <a href="https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews" target="_blank">Referencia del dataset</a>
 
-### El datset original tiene 5 clases, pero como están muy desbalanceados se juntaron clases para concluir solo en tres clases mas balanceadas. Entonces la clase 0 sería malo y regular, la clase 1 bueno y muy bueno y la clase 3 excelente/perfecto. Este cambio no balanceó por completo el dataset pero lo mejoró significativamente, lo cual mejoró el entrenamiento del modelo.
+### El dataset original tiene 5 clases, pero como están muy desbalanceados se juntaron clases para concluir solo en tres clases mas balanceadas. Entonces la clase 0 sería malo y regular, la clase 1 bueno y muy bueno y la clase 3 excelente/perfecto. Este cambio no balanceó por completo el dataset pero lo mejoró significativamente, lo cual mejoró el entrenamiento del modelo.
 
 ### Se utilizaron distintas configuraciones de redes, tanto con capas LSTM con conexiones bidireccionales como sin conexiones bidireccionales, adaptando las redes para cada caso, buscando el mejor resultado.
 
@@ -124,7 +121,7 @@
 
 ### :anguished: Este desafío consiste en construir un BOT para responder a preguntas del usuario (QA). El objecto es utilizar datos disponibles del challenge ConvAI2 (Conversational Intelligence Challenge 2) de conversaciones en inglés, utilizado la técnica seq2seq.
 
-### :toolbox: 
+### :toolbox: Para este desafío se usó una red neuronal del tipo LSTM (Long Short Term Memory) sequence-to-sequence Encoder-decoder con el tokenizador de Keras. Se utilizaron embeddings pre entrenados de Glove.    
 
 ###  :relaxed: Se utilizó una red neuronal con embeddings de Glove de dimensión 50 y una capa de entrada de 128 unidades. El dataset de entrenamiento tiene aproximadamente 1980 palabras. Los resultados fueron bastante variados, en algunos casos la respuesta del bot fue buena y en otros bastante deficiente, pero considerando la reducida dimensión del corpus de entrenamiento, los resultados generales fueron aceptables.
 
