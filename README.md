@@ -20,11 +20,10 @@
 * [ 🤖 Desafio 6 : Creación de un bot conversacional](#desafio6)
 
 * * *
-
 <a name="desafio1"></a>
 ## <p align="center"> TF-IDF (Term frequency-Inverse term frequency) </p>
+* * * 
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="300" src="https://github.com/mfchich/PLN/blob/main/imagenes/TF_IDF.JPG" ></a></p>
-
 * * *
 
 ### :anguished: Este desafío consiste en calcular las métricas TF (Term Frequency), IDF (Inverse Term Frequency) y similitud por coseno. Estas métricas se utilizan como indicador de cuán importante es una palabra (o un término) en un documento y, mediante el cálculo de similitud por coseno, poder calcular la similitud entre dos textos. 
