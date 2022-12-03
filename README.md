@@ -39,12 +39,12 @@
 <a name="desafio2"></a>
 ## <p align="center"> Construcción de BOT basado en reglas </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Bot_grande.JPG" ></a></p>
-
+***
 ### :anguished: Este desafío consiste en construir un bot basado en reglas que sea capaz de responder preguntas simples. En este caso se utilizó un corpus para un bot de un servicio de venta y reclamos de un servicio de TV por cable (Cablin).
 ### :toolbox: Para este desafio se utilizaron las librerías SpaCy-Stanza de Stanford con funciones para NLP para tokenizar. Se creó y entrenó un modelo secuencial de Keras.  
 ###  :relaxed: Se definieron 11 clases ('Subscripcion', 'agradecimientos', 'baja', 'consulta_pago', 'contacto', 'despedida', 'hablar_humano', 'nombre', 'reclamos_cobro', 'reclamos_servicios', 'saludos') con un vocabulario de 93 términos.
-### considerando la reducida cantidad de clases y de términos los resultados obtenidos fueron muy buenos. 
-
+### Considerando la reducida cantidad de clases y de términos los resultados obtenidos fueron muy buenos. 
+***
 
 :bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/2b%20-%20bot_dnn_spacy_esp_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 2</a>
 
