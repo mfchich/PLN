@@ -73,8 +73,8 @@
 ### :toolbox: Para este desafio se utilizaron las librerías Word2Vec de Gensim Doc2Vec, un modelo que representa cada Documento como un Vector.
 
 ### :relaxed: Se usó un corpus de aproximadamente 40 canciones de Joan Manuel Serrat. El dataset fue creado a mano. Las letras fueron obtenidas de https://www.musica.com/letras.asp?letras=7599
-> ### Se estableció en 2 la cantidad de repeticiones mínimas del término para ser tomada en cuenta. Esto es principalmente porque hay términos que se repiten poco, pero dan significado a otras que se repiten más.
-> ### La temática de los temas de cantautor es muy variada por lo cual los términos aparecen en contextos variados. Se comprueba que los términos se pueden relacionar con distintos párrafos de canciones de cantautor.
+>### Se estableció en 2 la cantidad de repeticiones mínimas del término para ser tomada en cuenta. Esto es principalmente porque hay términos que se repiten poco, pero dan significado a otras que se repiten más.
+>### La temática de los temas de cantautor es muy variada por lo cual los términos aparecen en contextos variados. Se comprueba que los términos se pueden relacionar con distintos párrafos de canciones de cantautor.
 
 :bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/3b-Custom_embedding_con_Gensim-M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 3</a>
 
