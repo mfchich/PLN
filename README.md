@@ -52,7 +52,7 @@
 
 ### :toolbox: Para este desafio se utilizaron las librerías SpaCy-Stanza de Stanford con funciones para NLP para tokenizar. Se creó y entrenó un modelo secuencial de Keras.  
 
-### :relaxed: En este caso se utilizó un corpus para un bot de un servicio de venta y reclamos de un servicio de TV por cable (Cablin).Se definieron 11 clases ('Subscripcion', 'agradecimientos', 'baja', 'consulta_pago', 'contacto', 'despedida', 'hablar_humano', 'nombre', 'reclamos_cobro', 'reclamos_servicios', 'saludos') con un vocabulario de 93 términos.
+### :relaxed: En este caso se utilizó un corpus para un bot de un servicio de venta y reclamos de un servicio de TV por cable (Cablin). Se definieron 11 clases ('Subscripcion', 'agradecimientos', 'baja', 'consulta_pago', 'contacto', 'despedida', 'hablar_humano', 'nombre', 'reclamos_cobro', 'reclamos_servicios', 'saludos') con un vocabulario de 93 términos.
 ### Considerando la reducida cantidad de clases y de términos los resultados obtenidos fueron muy buenos. 
 
 :bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/2b%20-%20bot_dnn_spacy_esp_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 2</a>
@@ -110,8 +110,9 @@
 
 
 ### El dataset original tiene 5 clases, pero como están muy desbalanceados se juntaron clases para concluir solo en tres clases mas balanceadas. Entonces la clase 0 sería malo y regular, la clase 1 bueno y muy bueno y la clase 3 excelente/perfecto. Este cambio no balanceó por completo el dataset pero lo mejoró significativamente, lo cual mejoró el entrenamiento del modelo.
-
 ### Se utilizaron distintas configuraciones de redes, tanto con capas LSTM con conexiones bidireccionales como sin conexiones bidireccionales, adaptando las redes para cada caso, buscando el mejor resultado.
+### Los resultados obtenidos fueron basntae buenos.
+
 
 :books: <a href="https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews" target="_blank">Referencia del dataset</a>
 
