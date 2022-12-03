@@ -13,11 +13,11 @@
 <a name="top"></a>
 ## Desafios 
 [:notebook: Desafio 1 : TF-IDF (Term frequency-Inverse term frequency) ](#desafio1) \
-[:space_invader: Desafio 2 : Construcción de BOT basado en reglas](#desafio2)
-* [:twisted_rightwards_arrows: Desafio 3 : Creación de embeddings de palabras basado en contexto](#desafio3)
-* [:repeat_one: Desafio 4 : Predicción de próxima palabra](#desafio4)
-* [:performing_arts: Desafio 5 : Análisis de sentimientos ](#desafio5)
-* [ 🤖 Desafio 6 : Creación de un bot conversacional](#desafio6)
+[:space_invader: Desafio 2 : Construcción de BOT basado en reglas](#desafio2) \
+[:twisted_rightwards_arrows: Desafio 3 : Creación de embeddings de palabras basado en contexto](#desafio3) \
+[:repeat_one: Desafio 4 : Predicción de próxima palabra](#desafio4) \
+[:performing_arts: Desafio 5 : Análisis de sentimientos ](#desafio5) \
+[ 🤖 Desafio 6 : Creación de un bot conversacional](#desafio6)
 
 * * *
 <a name="desafio1"></a>
