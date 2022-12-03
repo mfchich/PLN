@@ -18,17 +18,17 @@
 * [:repeat_one: Desafio 4 : Predicción de próxima palabra](#desafio4)
 * [:performing_arts: Desafio 5 : Análisis de sentimientos ](#desafio5)
 * [ 🤖 Desafio 6 : Creación de un bot conversacional](#desafio6)
-## 
+
+* * *
 
 <a name="desafio1"></a>
 ## <p align="center"> TF-IDF (Term frequency-Inverse term frequency) </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="300" src="https://github.com/mfchich/PLN/blob/main/imagenes/TF_IDF.JPG" ></a></p>
 
 ### :anguished: Este desafío consiste en calcular las métricas TF (Term Frequency), IDF (Inverse Term Frequency) y similitud por coseno. Estas métricas se utilizan como indicador de cuán importante es una palabra (o un término) en un documento y, mediante el cálculo de similitud por coseno, poder calcular la similitud entre dos textos. 
+###
 ### :toolbox: Para este desafío se utilizaron herramientas de cálculo de Numpy.
-
-* * *
-
+###
 ### :relaxed: El indicador TF muestra la frecuencia de aparición de un término en un documento.  
 ### El indicador IDF muestra la proporción de documentos en el corpus que poseen el término dado.
 ### El indicador Conseno se utiliza para evaluar la similitud entre dos documentos representados por sus correspondientes vectore   
@@ -37,11 +37,13 @@
 
 [:arrow_heading_up: Volver](#top)
 
-##
+* * *
+
 <a name="desafio2"></a>
 ## <p align="center"> Construcción de BOT basado en reglas </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Bot_grande.JPG" ></a></p>
----
+
+* * *
 
 ### :anguished: Este desafío consiste en construir un bot basado en reglas que sea capaz de responder preguntas simples. En este caso se utilizó un corpus para un bot de un servicio de venta y reclamos de un servicio de TV por cable (Cablin).
 ### :toolbox: Para este desafio se utilizaron las librerías SpaCy-Stanza de Stanford con funciones para NLP para tokenizar. Se creó y entrenó un modelo secuencial de Keras.  
