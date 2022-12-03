@@ -40,9 +40,9 @@
 ## <p align="center"> Construcción de BOT basado en reglas </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Bot_grande.JPG" ></a></p>
 
-### Este desafío consiste en construir un bot basado en reglas que sea capaz de responder preguntas simples. En este caso se utilizó un corpus para un bot de un servicio de venta y reclamos de un servicio de TV por cable (Cablin).
-### Para este desafio se utilizaron las librerías SpaCy-Stanza de Stanford con funciones para NLP para tokenizar. Se creó y entrenó un modelo secuencial de Keras.  
-### Se definieron 11 clases ('Subscripcion', 'agradecimientos', 'baja', 'consulta_pago', 'contacto', 'despedida', 'hablar_humano', 'nombre', 'reclamos_cobro', 'reclamos_servicios', 'saludos') con un vocabulario de 93 términos.
+### :anguished: Este desafío consiste en construir un bot basado en reglas que sea capaz de responder preguntas simples. En este caso se utilizó un corpus para un bot de un servicio de venta y reclamos de un servicio de TV por cable (Cablin).
+### :toolbox: Para este desafio se utilizaron las librerías SpaCy-Stanza de Stanford con funciones para NLP para tokenizar. Se creó y entrenó un modelo secuencial de Keras.  
+###  :relaxed: Se definieron 11 clases ('Subscripcion', 'agradecimientos', 'baja', 'consulta_pago', 'contacto', 'despedida', 'hablar_humano', 'nombre', 'reclamos_cobro', 'reclamos_servicios', 'saludos') con un vocabulario de 93 términos.
 ### considerando la reducida cantidad de clases y de términos los resultados obtenidos fueron muy buenos. 
 
 
@@ -55,11 +55,10 @@
 ## <p align="center"> Creación de embeddings de palabras basado en contexto </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Relacion_palabras.JPG" ></a></p>
 
-### Este desafío consiste en utilizar documentos/corpus para crear embeddings de palabras basado en ese contexto. Se utilizará canciones de bandas para generar los embeddings, es decir, que los vectores tendrán la forma en función de como esa banda haya utilizado las palabras en sus canciones.
+###  :anguished: Este desafío consiste en utilizar documentos/corpus para crear embeddings de palabras basado en ese contexto. Se utilizará canciones de bandas para generar los embeddings, es decir, que los vectores tendrán la forma en función de como esa banda haya utilizado las palabras en sus canciones.
 
-
-### Para este desafio se utilizaron las librerías Word2Vec de Gensim Doc2Vec, un modelo que representa cada Documento como un Vector.
-### Se usó un corpus de aproximadamente 40 canciones de Joan Manuel Serrat. El dataset fue creado a mano. Las letras fueron obtenidas de https://www.musica.com/letras.asp?letras=7599
+### :toolbox: Para este desafio se utilizaron las librerías Word2Vec de Gensim Doc2Vec, un modelo que representa cada Documento como un Vector.
+###  :relaxed: Se usó un corpus de aproximadamente 40 canciones de Joan Manuel Serrat. El dataset fue creado a mano. Las letras fueron obtenidas de https://www.musica.com/letras.asp?letras=7599
 ### Se estableció en 2 la cantidad de repeticiones mínimas del término para ser tomada en cuenta. Esto es principalmente porque hay términos que se repiten poco, pero dan significado a otras que se repiten más.
 ### La temática de los temas de cantautor es muy variada por lo cual los términos aparecen en contextos variados. Se comprueba que los términos se pueden relacionar con distintos párrafos de canciones de cantautor.
 
@@ -72,9 +71,11 @@
 ## <p align="center"> Predicción de próxima palabra </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Proxima_palabra.JPG" ></a></p>
 
-### Este desafío consiste en utilizar un dataset y poner en práctica la predicción de próxima palabra.
+###  :anguished: Este desafío consiste en utilizar un dataset y poner en práctica la predicción de próxima palabra.
 
-### Se usó un corpus de aproximadamente 4566 documentos (con 141318 tokens), formados por el texto del libro "La Vuelta al Mundo en 80 días" y de "Viaje al Centro de la Tierra", ambos de Julio Verne, concatenados y convertidos en un archivo csv. Ambos textos fueron obtenidos de https://www.textos.info/
+### :toolbox:
+
+###  :relaxed: Se usó un corpus de aproximadamente 4566 documentos (con 141318 tokens), formados por el texto del libro "La Vuelta al Mundo en 80 días" y de "Viaje al Centro de la Tierra", ambos de Julio Verne, concatenados y convertidos en un archivo csv. Ambos textos fueron obtenidos de https://www.textos.info/
 
 ### Los resultados no fueron muy buenos. Se ve que la palabra predicha no se ajusta a lo que se espera de sugerencia como palabra siguiente. Esto se explica por la reducida cantidad de documentos en el corpus.
 
@@ -87,8 +88,10 @@
 ## <p align="center"> Análisis de sentimientos </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Analisis_sentimientos2.JPG" ></a></p>
 
-### El objetivo es utilizar las críticas de compradores de ropa para que el sistema determine la evaluación del comprador y su crítica (cuantas estrellas le asigna al producto).
-### Se utilizó como dataset críticas de compradores de ropa por eCommerce , los cuales puntuaron a cada prenda con un puntaje de 1 a 5 estrellas.
+###  :anguished: Este desafío consiste en utilizar las críticas de compradores de ropa para que el sistema determine la evaluación del comprador y su crítica (cuantas estrellas le asigna al producto).
+
+### :toolbox:
+### :relaxed: Se utilizó como dataset críticas de compradores de ropa por eCommerce , los cuales puntuaron a cada prenda con un puntaje de 1 a 5 estrellas.
 
 <a href="https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews" target="_blank">Referencia del dataset</a>
 
@@ -105,9 +108,11 @@
 ## <p align="center"> Creación de un bot conversacional </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Bot_conversacion.JPG" ></a></p>
 
-### Este desafío consiste en construir un BOT para responder a preguntas del usuario (QA). El objecto es utilizar datos disponibles del challenge ConvAI2 (Conversational Intelligence Challenge 2) de conversaciones en inglés, utilizado la técnica seq2seq.
+### :anguished: Este desafío consiste en construir un BOT para responder a preguntas del usuario (QA). El objecto es utilizar datos disponibles del challenge ConvAI2 (Conversational Intelligence Challenge 2) de conversaciones en inglés, utilizado la técnica seq2seq.
 
-### Se utilizó una red neuronal con embeddings de Glove de dimensión 50 y una capa de entrada de 128 unidades. El dataset de entrenamiento tiene aproximadamente 1980 palabras. Los resultados fueron bastante variados, en algunos casos la respuesta del bot fue buena y en otros bastante deficiente, pero considerando la reducida dimensión del corpus de entrenamiento, los resultados generales fueron aceptables.
+### :toolbox:
+
+###  :relaxed: Se utilizó una red neuronal con embeddings de Glove de dimensión 50 y una capa de entrada de 128 unidades. El dataset de entrenamiento tiene aproximadamente 1980 palabras. Los resultados fueron bastante variados, en algunos casos la respuesta del bot fue buena y en otros bastante deficiente, pero considerando la reducida dimensión del corpus de entrenamiento, los resultados generales fueron aceptables.
 
 :bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/6-%20bot_qa_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 6</a>
 
