@@ -33,8 +33,8 @@
 ###
 
 ### :relaxed: El indicador TF muestra la frecuencia de aparición de un término en un documento.  
-### El indicador IDF muestra la proporción de documentos en el corpus que poseen el término dado.
-### El indicador Conseno se utiliza para evaluar la similitud entre dos documentos representados por sus correspondientes vectore   
+###           El indicador IDF muestra la proporción de documentos en el corpus que poseen el término dado.
+###           El indicador Conseno se utiliza para evaluar la similitud entre dos documentos representados por sus correspondientes vectore   
 
 :bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/1a%20-%20word2vec_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 1</a> 
 
