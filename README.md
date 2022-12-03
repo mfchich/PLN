@@ -11,18 +11,18 @@
 ## Marcelo chichiri
 
 <a name="top"></a>
-## Desafios 
-[:notebook: Desafio 1 : TF-IDF (Term frequency-Inverse term frequency) ](#desafio1) \
+## Desafíos 
+[:notebook: Desafío 1 : TF-IDF (Term frequency-Inverse term frequency) ](#desafio1) \
 \
-[:space_invader: Desafio 2 : Construcción de BOT basado en reglas](#desafio2) \
+[:space_invader: Desafío 2 : Construcción de BOT basado en reglas](#desafio2) \
 \
-[:twisted_rightwards_arrows: Desafio 3 : Creación de embeddings de palabras basado en contexto](#desafio3) \
+[:twisted_rightwards_arrows: Desafío 3 : Creación de embeddings de palabras basado en contexto](#desafio3) \
 \
-[:repeat_one: Desafio 4 : Predicción de próxima palabra](#desafio4) \
+[:repeat_one: Desafío 4 : Predicción de próxima palabra](#desafio4) \
 \
-[:performing_arts: Desafio 5 : Análisis de sentimientos ](#desafio5) \
+[:performing_arts: Desafío 5 : Análisis de sentimientos ](#desafio5) \
 \
-[ 🤖 Desafio 6 : Creación de un bot conversacional](#desafio6)
+[ 🤖 Desafío 6 : Creación de un bot conversacional](#desafio6)
 
 * * *
 <a name="desafio1"></a>
@@ -33,12 +33,12 @@
 
 ### :toolbox: Para este desafío se utilizaron herramientas de cálculo de Numpy.
 
-### :relaxed: Las metricas TF, IDF y similitud por coseno se utilizan como indicador de cuán importante es una palabra (o un término) en un documento y, mediante el cálculo de similitud por coseno, poder calcular la similitud entre dos textos. 
+### :relaxed: Las métricas TF, IDF y similitud por coseno se utilizan como indicador de cuán importante es una palabra (o un término) en un documento y, mediante el cálculo de similitud por coseno, poder calcular la similitud entre dos textos. 
 ### El indicador TF muestra la frecuencia de aparición de un término en un documento.  
 ### El indicador IDF muestra la proporción de documentos en el corpus que poseen el término dado.
-### El indicador Conseno se utiliza para evaluar la similitud entre dos documentos representados por sus correspondientes vectores   
+### El indicador Coseno se utiliza para evaluar la similitud entre dos documentos representados por sus correspondientes vectores   
 
-:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/1a%20-%20word2vec_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 1</a> 
+:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/1a%20-%20word2vec_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafío 1</a> 
 
 [:arrow_heading_up: Volver](#top)
 
@@ -50,12 +50,12 @@
 
 ### :anguished: Este desafío consiste en construir un bot basado en reglas que sea capaz de responder preguntas simples.
 
-### :toolbox: Para este desafio se utilizaron las librerías SpaCy-Stanza de Stanford con funciones para NLP para tokenizar. Se creó y entrenó un modelo secuencial de Keras.  
+### :toolbox: Para este desafío se utilizaron las librerías SpaCy-Stanza de Stanford con funciones para NLP para tokenizar. Se creó y entrenó un modelo secuencial de Keras.  
 
 ### :relaxed: En este caso se utilizó un corpus para un bot de un servicio de venta y reclamos de un servicio de TV por cable (Cablin). Se definieron 11 clases ('Subscripcion', 'agradecimientos', 'baja', 'consulta_pago', 'contacto', 'despedida', 'hablar_humano', 'nombre', 'reclamos_cobro', 'reclamos_servicios', 'saludos') con un vocabulario de 93 términos.
 ### Considerando la reducida cantidad de clases y de términos los resultados obtenidos fueron muy buenos. 
 
-:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/2b%20-%20bot_dnn_spacy_esp_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 2</a>
+:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/2b%20-%20bot_dnn_spacy_esp_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafío 2</a>
 
 [:arrow_heading_up: Volver ](#top)
 
@@ -67,13 +67,13 @@
 
 ### :anguished: Este desafío consiste en utilizar documentos/corpus para crear embeddings de palabras basado en ese contexto. Se utilizará canciones de bandas o cantantes para generar los embeddings, es decir, que los vectores tendrán la forma en función de como esa banda o cantante haya utilizado las palabras en sus canciones.
 
-### :toolbox: Para este desafio se utilizaron las librerías Word2Vec de Gensim Doc2Vec, un modelo que representa cada Documento como un Vector.
+### :toolbox: Para este desafío se utilizaron las librerías Word2Vec de Gensim Doc2Vec, un modelo que representa cada Documento como un Vector.
 
 ### :relaxed: Se usó un corpus de aproximadamente 40 canciones de Joan Manuel Serrat. El dataset fue creado a mano. Las letras fueron obtenidas de https://www.musica.com/letras.asp?letras=7599
 ### Se estableció en 2 la cantidad de repeticiones mínimas del término para ser tomada en cuenta. Esto es principalmente porque hay términos que se repiten poco, pero dan significado a otras que se repiten más.
 ### La temática de los temas de cantautor es muy variada por lo cual los términos aparecen en contextos variados. Se comprueba que los términos se pueden relacionar con distintos párrafos de canciones de cantautor.
 
-:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/3b-Custom_embedding_con_Gensim-M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 3</a>
+:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/3b-Custom_embedding_con_Gensim-M-CHICHIRI.ipynb" target="_blank">Ir al código del desafío 3</a>
 
 [:arrow_heading_up: Volver](#top)
 
@@ -91,7 +91,7 @@
 
 ### Los resultados no fueron muy buenos. Se ve que la palabra predicha no se ajusta a lo que se espera de sugerencia como palabra siguiente. Esto se explica por la reducida cantidad de documentos en el corpus.
 
-:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/4d%20-%20predicci%C3%B3n_palabra_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 4</a>
+:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/4d%20-%20predicci%C3%B3n_palabra_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafío 4</a>
 
 [:arrow_heading_up: Volver](#top)
 
@@ -115,7 +115,7 @@
 
 :books: <a href="https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews" target="_blank">Referencia del dataset</a>
 
-:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/5%20-%20clothing_ecommerce_reviews-M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 5</a>
+:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/5%20-%20clothing_ecommerce_reviews-M-CHICHIRI.ipynb" target="_blank">Ir al código del desafío 5</a>
 
 [:arrow_heading_up: Volver](#top)
 
@@ -131,6 +131,6 @@
 
 ###  :relaxed: Se utilizó una red neuronal con embeddings de Glove de dimensión 50 y una capa de entrada de 128 unidades. El dataset de entrenamiento tiene aproximadamente 1980 palabras. Los resultados fueron bastante variados, en algunos casos la respuesta del bot fue buena y en otros bastante deficiente, pero considerando la reducida dimensión del corpus de entrenamiento, los resultados generales fueron aceptables.
 
-:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/6-%20bot_qa_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 6</a>
+:bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/6-%20bot_qa_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafío 6</a>
 
 [:arrow_heading_up: Volver](#top)
