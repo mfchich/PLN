@@ -24,7 +24,7 @@
 ## <p align="center"> TF-IDF (Term frequency-Inverse term frequency) </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="300" src="https://github.com/mfchich/PLN/blob/main/imagenes/TF_IDF.JPG" ></a></p>
 
-### :anguished: Este desafío consiste en calcular las métricas TF (Term Frequency), IDF (Inverse Term Frequency) y similitud por coseno. 
+### :anguished: Este desafío consiste en calcular las métricas TF (Term Frequency), IDF (Inverse Term Frequency) y similitud por coseno para calcular la similitud entre dos textos.
 
 ### :toolbox: Para este desafío se utilizaron herramientas de cálculo de Numpy.
 
