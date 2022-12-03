@@ -24,19 +24,16 @@
 ## <p align="center"> TF-IDF (Term frequency-Inverse term frequency) </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="300" src="https://github.com/mfchich/PLN/blob/main/imagenes/TF_IDF.JPG" ></a></p>
 
-### :anguished: 
-### Este desafío consiste en calcular las métricas TF (Term Frequency), IDF (Inverse Term Frequency) y similitud por coseno. Estas métricas se utilizan como indicador de cuán importante es una palabra (o un término) en un documento y, mediante el cálculo de similitud por coseno, poder calcular la similitud entre dos textos. 
+### :anguished: Este desafío consiste en calcular las métricas TF (Term Frequency), IDF (Inverse Term Frequency) y similitud por coseno. Estas métricas se utilizan como indicador de cuán importante es una palabra (o un término) en un documento y, mediante el cálculo de similitud por coseno, poder calcular la similitud entre dos textos. 
 
 ###
 
-### :toolbox: 
-### Para este desafío se utilizaron herramientas de cálculo de Numpy.
+### :toolbox: Para este desafío se utilizaron herramientas de cálculo de Numpy.
 
 ###
 
-### :relaxed: 
-### El indicador TF muestra la frecuencia de aparición de un término en un documento.  
-### El indicador IDF muestra la proporción de documentos en el corpus que poseen el término dado.
+### :relaxed: El indicador TF muestra la frecuencia de aparición de un término en un documento.  
+     ### El indicador IDF muestra la proporción de documentos en el corpus que poseen el término dado.
 ### El indicador Conseno se utiliza para evaluar la similitud entre dos documentos representados por sus correspondientes vectore   
 
 :bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/1a%20-%20word2vec_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 1</a> 
@@ -73,8 +70,8 @@
 ### :toolbox: Para este desafio se utilizaron las librerías Word2Vec de Gensim Doc2Vec, un modelo que representa cada Documento como un Vector.
 
 ### :relaxed: > Se usó un corpus de aproximadamente 40 canciones de Joan Manuel Serrat. El dataset fue creado a mano. Las letras fueron obtenidas de https://www.musica.com/letras.asp?letras=7599
->### Se estableció en 2 la cantidad de repeticiones mínimas del término para ser tomada en cuenta. Esto es principalmente porque hay términos que se repiten poco, pero dan significado a otras que se repiten más.
->### La temática de los temas de cantautor es muy variada por lo cual los términos aparecen en contextos variados. Se comprueba que los términos se pueden relacionar con distintos párrafos de canciones de cantautor.
+### Se estableció en 2 la cantidad de repeticiones mínimas del término para ser tomada en cuenta. Esto es principalmente porque hay términos que se repiten poco, pero dan significado a otras que se repiten más.
+### La temática de los temas de cantautor es muy variada por lo cual los términos aparecen en contextos variados. Se comprueba que los términos se pueden relacionar con distintos párrafos de canciones de cantautor.
 
 :bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/3b-Custom_embedding_con_Gensim-M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 3</a>
 
@@ -88,7 +85,7 @@
 
 ###  :anguished: Este desafío consiste en utilizar un dataset y poner en práctica la predicción de próxima palabra.
 
-### :toolbox: Para este desafio se usó una BRNN (Red Neuronal Recurrente Bidireccional) del tipo LSTM (Long Short Term Memory) con el tokenizador de Keras. 
+### :toolbox: Para este desafío se usó una BRNN (Red Neuronal Recurrente Bidireccional) del tipo LSTM (Long Short Term Memory) con el tokenizador de Keras. 
 
 ###  :relaxed: Se usó un corpus de aproximadamente 4566 documentos (con 141318 tokens), formados por el texto del libro "La Vuelta al Mundo en 80 días" y de "Viaje al Centro de la Tierra", ambos de Julio Verne, concatenados y convertidos en un archivo csv. Ambos textos fueron obtenidos de https://www.textos.info/
 
@@ -106,14 +103,14 @@
 
 ###  :anguished: Este desafío consiste en utilizar las críticas de compradores de ropa para que el sistema determine la evaluación del comprador y su crítica (cuantas estrellas le asigna al producto).
 
-### :toolbox:
-### :relaxed: Se utilizó como dataset críticas de compradores de ropa por eCommerce , los cuales puntuaron a cada prenda con un puntaje de 1 a 5 estrellas.
+### :toolbox: Para este desafío se usó una BRNN (Red Neuronal Recurrente Bidireccional) del tipo LSTM (Long Short Term Memory) con el tokenizador de Keras. Se utilizaron embeddings pre entrenados de fasttext y embeddings entrenados desde cero.  
+### :relaxed: Se utilizó como dataset críticas de compradores de ropa por eCommerce, los cuales puntuaron a cada prenda con un puntaje de 1 a 5 estrellas.
 
 <a href="https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews" target="_blank">Referencia del dataset</a>
 
 ### El datset original tiene 5 clases, pero como están muy desbalanceados se juntaron clases para concluir solo en tres clases mas balanceadas. Entonces la clase 0 sería malo y regular, la clase 1 bueno y muy bueno y la clase 3 excelente/perfecto. Este cambio no balanceó por completo el dataset pero lo mejoró significativamente, lo cual mejoró el entrenamiento del modelo.
 
-### Se utilizaron distintas configuraciones de redes, tanto con capas lstm con conexiones bidireccionales como sin conexiones bidireccionales, adaptando las redes para cada caso, buscando el mejor resultado.
+### Se utilizaron distintas configuraciones de redes, tanto con capas LSTM con conexiones bidireccionales como sin conexiones bidireccionales, adaptando las redes para cada caso, buscando el mejor resultado.
 
 :bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/5%20-%20clothing_ecommerce_reviews-M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 5</a>
 
@@ -127,7 +124,7 @@
 
 ### :anguished: Este desafío consiste en construir un BOT para responder a preguntas del usuario (QA). El objecto es utilizar datos disponibles del challenge ConvAI2 (Conversational Intelligence Challenge 2) de conversaciones en inglés, utilizado la técnica seq2seq.
 
-### :toolbox:
+### :toolbox: 
 
 ###  :relaxed: Se utilizó una red neuronal con embeddings de Glove de dimensión 50 y una capa de entrada de 128 unidades. El dataset de entrenamiento tiene aproximadamente 1980 palabras. Los resultados fueron bastante variados, en algunos casos la respuesta del bot fue buena y en otros bastante deficiente, pero considerando la reducida dimensión del corpus de entrenamiento, los resultados generales fueron aceptables.
 
