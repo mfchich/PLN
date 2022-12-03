@@ -81,7 +81,7 @@
 
 ###  :anguished: Este desafío consiste en utilizar un dataset y poner en práctica la predicción de próxima palabra.
 
-### :toolbox:
+### :toolbox: Para este desafio se usó una BRNN (Red Neuronal Recurrente Bidireccional) del tipo LSTM (Long Short Term Memory) con el tokenizador de Keras. 
 
 ###  :relaxed: Se usó un corpus de aproximadamente 4566 documentos (con 141318 tokens), formados por el texto del libro "La Vuelta al Mundo en 80 días" y de "Viaje al Centro de la Tierra", ambos de Julio Verne, concatenados y convertidos en un archivo csv. Ambos textos fueron obtenidos de https://www.textos.info/
 
