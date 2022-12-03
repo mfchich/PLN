@@ -29,14 +29,14 @@
 ## <p align="center"> TF-IDF (Term frequency-Inverse term frequency) </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="300" src="https://github.com/mfchich/PLN/blob/main/imagenes/TF_IDF.JPG" ></a></p>
 
-### :anguished: Este desafío consiste en calcular las métricas TF (Term Frequency), IDF (Inverse Term Frequency) y similitud por coseno para calcular la similitud entre dos textos.
+### :anguished: Este desafío consiste en calcular las métricas TF (Term Frequency), IDF (Inverse Document Frequency) y similitud por coseno para calcular la similitud entre dos textos.
 
 ### :toolbox: Para este desafío se utilizaron herramientas de cálculo de Numpy.
 
 ### :relaxed: Las metricas TF, IDF y similitud por coseno se utilizan como indicador de cuán importante es una palabra (o un término) en un documento y, mediante el cálculo de similitud por coseno, poder calcular la similitud entre dos textos. 
 ### El indicador TF muestra la frecuencia de aparición de un término en un documento.  
 ### El indicador IDF muestra la proporción de documentos en el corpus que poseen el término dado.
-### El indicador Conseno se utiliza para evaluar la similitud entre dos documentos representados por sus correspondientes vectore   
+### El indicador Conseno se utiliza para evaluar la similitud entre dos documentos representados por sus correspondientes vectores   
 
 :bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/1a%20-%20word2vec_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 1</a> 
 
@@ -48,10 +48,11 @@
 ## <p align="center"> Construcción de BOT basado en reglas </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Bot_grande.JPG" ></a></p>
 
+### :anguished: Este desafío consiste en construir un bot basado en reglas que sea capaz de responder preguntas simples.
 
-### :anguished: Este desafío consiste en construir un bot basado en reglas que sea capaz de responder preguntas simples. En este caso se utilizó un corpus para un bot de un servicio de venta y reclamos de un servicio de TV por cable (Cablin).
 ### :toolbox: Para este desafio se utilizaron las librerías SpaCy-Stanza de Stanford con funciones para NLP para tokenizar. Se creó y entrenó un modelo secuencial de Keras.  
-### :relaxed: Se definieron 11 clases ('Subscripcion', 'agradecimientos', 'baja', 'consulta_pago', 'contacto', 'despedida', 'hablar_humano', 'nombre', 'reclamos_cobro', 'reclamos_servicios', 'saludos') con un vocabulario de 93 términos.
+
+### :relaxed: En este caso se utilizó un corpus para un bot de un servicio de venta y reclamos de un servicio de TV por cable (Cablin).Se definieron 11 clases ('Subscripcion', 'agradecimientos', 'baja', 'consulta_pago', 'contacto', 'despedida', 'hablar_humano', 'nombre', 'reclamos_cobro', 'reclamos_servicios', 'saludos') con un vocabulario de 93 términos.
 ### Considerando la reducida cantidad de clases y de términos los resultados obtenidos fueron muy buenos. 
 
 :bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/2b%20-%20bot_dnn_spacy_esp_M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 2</a>
@@ -64,11 +65,11 @@
 ## <p align="center"> Creación de embeddings de palabras basado en contexto </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Relacion_palabras.JPG" ></a></p>
 
-### :anguished: Este desafío consiste en utilizar documentos/corpus para crear embeddings de palabras basado en ese contexto. Se utilizará canciones de bandas para generar los embeddings, es decir, que los vectores tendrán la forma en función de como esa banda haya utilizado las palabras en sus canciones.
+### :anguished: Este desafío consiste en utilizar documentos/corpus para crear embeddings de palabras basado en ese contexto. Se utilizará canciones de bandas o cantantes para generar los embeddings, es decir, que los vectores tendrán la forma en función de como esa banda o cantante haya utilizado las palabras en sus canciones.
 
 ### :toolbox: Para este desafio se utilizaron las librerías Word2Vec de Gensim Doc2Vec, un modelo que representa cada Documento como un Vector.
 
-### :relaxed: > Se usó un corpus de aproximadamente 40 canciones de Joan Manuel Serrat. El dataset fue creado a mano. Las letras fueron obtenidas de https://www.musica.com/letras.asp?letras=7599
+### :relaxed: Se usó un corpus de aproximadamente 40 canciones de Joan Manuel Serrat. El dataset fue creado a mano. Las letras fueron obtenidas de https://www.musica.com/letras.asp?letras=7599
 ### Se estableció en 2 la cantidad de repeticiones mínimas del término para ser tomada en cuenta. Esto es principalmente porque hay términos que se repiten poco, pero dan significado a otras que se repiten más.
 ### La temática de los temas de cantautor es muy variada por lo cual los términos aparecen en contextos variados. Se comprueba que los términos se pueden relacionar con distintos párrafos de canciones de cantautor.
 
@@ -82,7 +83,7 @@
 ## <p align="center"> Predicción de próxima palabra </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Proxima_palabra.JPG" ></a></p>
 
-###  :anguished: Este desafío consiste en utilizar un dataset y poner en práctica la predicción de próxima palabra.
+### :anguished: Este desafío consiste en utilizar un dataset y poner en práctica la predicción de próxima palabra.
 
 ### :toolbox: Para este desafío se usó una BRNN (Red Neuronal Recurrente Bidireccional) del tipo LSTM (Long Short Term Memory) con el tokenizador de Keras. 
 
@@ -103,13 +104,16 @@
 ###  :anguished: Este desafío consiste en utilizar las críticas de compradores de ropa para que el sistema determine la evaluación del comprador y su crítica (cuantas estrellas le asigna al producto).
 
 ### :toolbox: Para este desafío se usó una BRNN (Red Neuronal Recurrente Bidireccional) del tipo LSTM (Long Short Term Memory) con el tokenizador de Keras. Se utilizaron embeddings pre entrenados de fasttext y embeddings entrenados desde cero.  
+
 ### :relaxed: Se utilizó como dataset críticas de compradores de ropa por eCommerce, los cuales puntuaron a cada prenda con un puntaje de 1 a 5 estrellas.
 
-<a href="https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews" target="_blank">Referencia del dataset</a>
+
 
 ### El dataset original tiene 5 clases, pero como están muy desbalanceados se juntaron clases para concluir solo en tres clases mas balanceadas. Entonces la clase 0 sería malo y regular, la clase 1 bueno y muy bueno y la clase 3 excelente/perfecto. Este cambio no balanceó por completo el dataset pero lo mejoró significativamente, lo cual mejoró el entrenamiento del modelo.
 
 ### Se utilizaron distintas configuraciones de redes, tanto con capas LSTM con conexiones bidireccionales como sin conexiones bidireccionales, adaptando las redes para cada caso, buscando el mejor resultado.
+
+:books: <a href="https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews" target="_blank">Referencia del dataset</a>
 
 :bookmark_tabs: <a href="https://github.com/mfchich/PLN/blob/main/5%20-%20clothing_ecommerce_reviews-M-CHICHIRI.ipynb" target="_blank">Ir al código del desafio 5</a>
 
