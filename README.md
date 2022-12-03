@@ -1,6 +1,3 @@
- 
-<p align="center"> <h1 align="center">:boom: ** CARATULA EN DESARROLLO **:boom:</h1> </p>
-
 <p align="center"> <h1 align="center">:book: Procesamiento de Lenguaje Natural (PLN) :book:</h1> </p>
 
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="500" src="https://github.com/mfchich/PLN/blob/main/imagenes/PLN.JPG" ></a></p>
