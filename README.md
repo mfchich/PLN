@@ -58,7 +58,6 @@
 
 * * *
 
-##
 <a name="desafio3"></a>
 ## <p align="center"> Creación de embeddings de palabras basado en contexto </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Relacion_palabras.JPG" ></a></p>
@@ -76,7 +75,6 @@
 
 * * *
 
-##
 <a name="desafio4"></a>
 ## <p align="center"> Predicción de próxima palabra </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Proxima_palabra.JPG" ></a></p>
@@ -95,7 +93,6 @@
 
 * * *
 
-##
 <a name="desafio5"></a>
 ## <p align="center"> Análisis de sentimientos </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Analisis_sentimientos2.JPG" ></a></p>
@@ -117,7 +114,6 @@
 
 * * *
 
-##
 <a name="desafio6"></a>
 ## <p align="center"> Creación de un bot conversacional </p>
 <p align="center"><a target="_blank" rel="noopener noreferrer"><img width="200" src="https://github.com/mfchich/PLN/blob/main/imagenes/Bot_conversacion.JPG" ></a></p>
